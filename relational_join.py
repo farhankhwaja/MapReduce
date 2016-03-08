@@ -4,7 +4,8 @@ import MapReduce
 import sys
 
 """
-Relation Join in Python 3.4.2 MapReduce Framework
+Implement a MapReduce algorithm to join the two relations based on the Movie ID/Rated Movie ID value. 
+A file with two relations that represent user information names and user movie ratings, is provided.
 """
 
 mr = MapReduce.MapReduce()

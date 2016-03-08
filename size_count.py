@@ -1,11 +1,12 @@
 __author__ = 'farhankhwaja'
+
 import MapReduce
 import sys
 from collections import OrderedDict
 
 """
-    Size Count Program in Python 3.4.2 MapReduce Framework
-    """
+A python program, that implements a mapReduce algorithm to count the words of each size (large, medium, small, tiny) in a document.
+"""
 
 mr = MapReduce.MapReduce()
 

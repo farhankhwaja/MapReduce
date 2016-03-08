@@ -1,10 +1,14 @@
 __author__ = 'farhankhwaja'
+
 import MapReduce
 import sys
 
 """
-    Pair of friends Program in Python 3.4.2 MapReduce Framework
-    """
+A python program implements a MapReduce algorithm to identify symmetric friendships in the input data.
+The program will output pairs of friends where personA is a friend of personB and personB is also a
+friend of personA. If the friendship is asymmetric (only one person in the pair considers the other person a friend),
+do not emit any output for that pair.
+"""
 
 mr = MapReduce.MapReduce()
 

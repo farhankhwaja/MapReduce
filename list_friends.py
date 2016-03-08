@@ -1,11 +1,14 @@
 __author__ = 'farhankhwaja'
+
 import MapReduce
 import sys
 import operator
 
 """
-    Friend List Program in Python 3.4.2 MapReduce Framework
-    """
+Given a simple social network dataset consisting of a set of key-value pairs (person, friend)
+representing a friend relationship between two people. This python program implements a MapReduce
+algorithm to produce a complete list of friends for each person.
+"""
 
 mr = MapReduce.MapReduce()
 

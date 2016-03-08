@@ -1,10 +1,12 @@
 __author__ = 'farhankhwaja'
+
 import MapReduce
 import sys
 
 """
-    Mutual Friends Program in the Python 3.4.2 MapReduce Framework
-    """
+A python program implements a MapReduce algorithm to identify mutual friends for a pair of friends.
+The program will output a list of friends that personA and personB are both friends with.
+"""
 
 mr = MapReduce.MapReduce()
 
